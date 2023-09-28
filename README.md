@@ -1,7 +1,7 @@
 # soxfuzz
 Python3 audo file fuzzer based on pysox and pydub
 
-This is PoC code to evade biometric voiceprint checks for recorded audio.  At the moment, you will need to manually install pysox and pydub and create a subdirectory named "chunks".
+This is PoC code to evade biometric voiceprint checks for recorded audio.
 
 	Usage: ./soxfuzz.py [OPTIONS]
 
