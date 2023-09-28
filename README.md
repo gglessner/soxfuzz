@@ -8,7 +8,7 @@ This is PoC code to evade biometric voiceprint checks for recorded audio.
 		-i, --input		Input Filename
 		-o, --output		Output Filename
 		-l, --length		Length of time in seconds (0.5 = 1/2 second)
-		-v, --variance		How much to vary the chunk (0.1 = +/1 0.1)
+		-v, --variance		How much to vary the chunk (0.1 = +/- 0.1)
 		-h, --help		This help message
 
 Ideally the initial audio file will be processed in multiple stages.  In each stage the audio file to split into multiple parts based on the length (-l) argument and stored in the ./chunks subdirectory.  Then each chunk is randomly modified (based on the -v variance) and then recombined into the output file.
